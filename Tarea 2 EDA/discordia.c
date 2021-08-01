@@ -53,7 +53,7 @@ int main(int argc , char *argv[]){
     
     //Creacion texto plano
     FILE *text_flat = fopen("analisis.txt","w");
-    fprintf(text_flat,/*"Tiempo insertsort: %f\n */"Tiempo quicksort: %f\nTiempo radixsort: %f\n"/*,Insert_t*/,Quick_t , Radix_t);
+    fprintf(text_flat,/*"Tiempo insertsort: %f\n */"Tiempo quicksort: %f\nTiempo radixsort: %f\n1000000.000000 = 1 sec"/*,Insert_t*/,Quick_t , Radix_t);
     fclose(text_flat);
     return 0;
 }
