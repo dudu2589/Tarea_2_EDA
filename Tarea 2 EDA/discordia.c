@@ -31,9 +31,7 @@ int main(int argc , char *argv[]){
     clock_t end_quick = clock();
     /*radixsort*/
     clock_t start_radix = clock();
-    printf("%d %d %d\n",arreglo3[0],arreglo3[1],arreglo3[2]);
     radixsort(arreglo3,resolution);
-    printf("%d %d %d\n",arreglo3[0],arreglo3[1],arreglo3[2]);
     clock_t end_radix = clock();
     
     //creacion imagen
